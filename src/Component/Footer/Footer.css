@@ -1,0 +1,217 @@
+.animate-div {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  background-color: black;
+  opacity: 0; /* Starts as hidden */
+  z-index:1; /* Ensure it does not interfere with other elements */
+  height: 0;
+  transition: height 1s ease, opacity 1s ease;
+}
+
+/* Airplane container */
+.airplane {
+  position: relative;
+  z-index: 11;
+}
+
+
+
+.footer-page {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  box-sizing: border-box;
+  background-color: black;
+  color: white;
+  position: relative;
+}
+/*.animate-div{
+  background-color: red;
+  width: 100%;
+  position: absolute;
+  top: 0;
+
+}*/
+
+.footer-icon {
+  width: 100%;
+  height: auto;
+  object-fit: cover;
+}
+
+.footer-content-box {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px 20px;
+  box-sizing: border-box;
+/*  background-color: black;*/
+
+}
+
+.footer-left-box {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding-left: 80px;
+  padding-right:10px;
+  gap: 10px;
+}
+
+.footer-left-box h4 {
+  font-family: "Stick No Bills", sans-serif;
+  font-size: 2.5rem;/*50px*/
+  background: linear-gradient(to bottom, #ffffff 0%, #686868 90%);
+  -webkit-text-fill-color: transparent;
+  -webkit-background-clip: text;
+  margin: 0;
+}
+
+.footer-left-box p {
+  font-size: 18px;/*20px*/
+/*  font-size: 1rem;/*20px*/
+  font-family: "Sora", sans-serif;
+}
+
+.footer-right-box {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap:50px;
+  padding-left: 10px;
+  padding-right:50px;
+}
+
+.footer-info p {
+/*  background-color: red;*/
+  margin: 2px 0;
+  font-size: 14px;/*14px*/
+/*  font-size: 0.9rem;/*14px*/
+  font-family: "Sora", sans-serif;
+}
+
+.arrow-icon {
+  font-size: 25px;/*25px*/
+/*  font-size: 1.5rem;/*25px*/
+  color: whitesmoke;
+  cursor: pointer;
+  transition: transform 0.3s ease, color 0.3s ease;
+/*  background-color: green;*/
+}
+
+.arrow-icon:hover {
+  transform: translateY(-5px);
+  color: yellow;
+}
+
+/* Responsive Design */
+
+/* Tablets (1024px and below) */
+@media screen and (max-width: 1024px) {
+  .footer-content-box {
+    
+    padding: 15px 10px;
+  }
+
+  .footer-left-box {
+    /*flex-direction: column;
+    align-items: center;
+    gap: 5px;*/
+  }
+
+  .footer-left-box h4 {
+    font-size: 2rem;
+  }
+
+  .footer-left-box p {
+    font-size: 0.9rem;
+  }
+
+  .footer-right-box {
+    gap: 20px;
+  }
+
+  .footer-info p {
+    font-size: 0.8rem;
+  }
+
+  .arrow-icon {
+    font-size: 1.4rem;
+  }
+}
+
+/* Mobile (768px and below) */
+@media screen and (max-width: 768px) {
+  .footer-content-box {
+    padding: 10px;
+  }
+
+  .footer-left-box h4 {
+    font-size: 1.8rem;
+  }
+
+  .footer-left-box p {
+    font-size: 0.85rem;
+  }
+
+  .footer-right-box {
+    gap: 8px;
+  }
+
+  .footer-info p {
+    font-size: 0.75rem;
+  }
+
+  .arrow-icon {
+    font-size: 1.3rem;
+  }
+}
+
+/* Small Screens (480px and below) */
+@media screen and (max-width: 480px) {
+  .footer-content-box {
+    padding: 8px 3px;
+
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  .footer-left-box{
+/*    background-color:lightgreen;*/
+    justify-content: center;
+    align-items:center;
+
+    padding-left:0px;
+/*    text-align: left;*/
+  }
+  .footer-left-box h4 {
+    font-size: 1.5rem;
+    background-color: red;
+  }
+
+  .footer-left-box p {
+    font-size: 0.75rem;
+  }
+
+  .footer-right-box {
+    justify-content: center;
+    align-items: center;
+/*    gap: 15px;*/
+    padding-left: 0px;
+    padding-right: 0px;
+/*    background-color: green;*/
+  }
+
+  .footer-info p {
+    font-size: 0.7rem;
+    text-align: center;
+
+  }
+
+  .arrow-icon {
+    font-size: 1.2rem;
+  }
+}

@@ -1,0 +1,43 @@
+
+.sidebar-content-box{
+	position: fixed;
+  right: 0; /* Fix to the right edge */
+  top: 50%; /* Vertically center */
+  transform: translateY(-50%); /* Adjust centering */
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+/*	background-color: orangered;*/
+	padding: 5px;
+	gap:10px;
+  z-index: 1000;
+/*	width: fit-content;*/
+/*	margin: 300px auto;*/
+/*	transform: rotate(90deg);*/
+	
+}
+.sidebar-content{
+	display:flex ;
+  flex-direction: column;
+	justify-content: center;
+	align-content: center;
+	gap:20px ;
+	cursor: pointer;
+/*	background-color: white;*/
+/*	color: #9932CC;*/
+    color:#D9AACC;
+	font-size: 30px;
+	border-radius: 20px;
+	padding: 10px;
+
+}
+.pop-icon-box{
+/*	background-color: yellow;*/
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	font-size: 30px;
+	color: #9932CC;
+/*	transform: rotate(-180deg);*/
+}

@@ -1,0 +1,229 @@
+.experience-page{
+   width: 100%;
+   min-height:100vh;
+   display: flex;
+   flex-direction: column;
+   padding: 20px 20px;
+   box-sizing: border-box;
+/*   background-color: black; */
+/*background-color: orange;*/
+}
+.experience-heading-box{
+    box-sizing: border-box;
+    width: 100%;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+/*    background-color: seagreen;*/
+    padding: 0 0 10px 0;
+}
+.experience-heading-box h5{
+    font-size:60px;
+    font-family: "Sora", sans-serif;
+    background: linear-gradient(to right, #000000 8%, #797A7B 47%, #CBD4EC 77%);
+    -webkit-text-fill-color: transparent;
+    -webkit-background-clip: text;
+/*    font-weight: 800;*/
+    margin: 0px;
+    letter-spacing: 2px;
+}
+.experience-heading-box .thin {
+  font-weight: 400; /* lighter */
+}
+
+.experience-heading-box .thick {
+  font-weight: 800; /* bolder */
+}
+
+/*.experience-heading-box span{
+    font-weight: 800;
+}*/
+.experience-heading-box p{
+   font-family: "Poppins", sans-serif;
+   font-weight: 400;
+   font-size:30px;
+   color:black;
+   margin:0px;
+   letter-spacing: 1px;
+}
+.experience-content-box
+{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 30px; 
+  flex-wrap: wrap; 
+  width: 100%;
+  box-sizing: border-box;
+  padding-top: 15px;
+}
+
+.experience-box{
+   max-width: 70%;
+   display: flex;
+   flex-direction: column;
+   padding: 10px;
+   box-sizing: border-box;
+   background-color: black;
+   border-image: linear-gradient(to right, #FFFFFF 0%, #686262 100%) 1;
+   border-width: 6px;
+   border-style: solid;
+   transition: transform 0.3s ease;
+
+}
+/*.experience-box:hover {
+   transform: scale(1.02);
+}*/
+
+.experience-content-heading{
+/*    background-color: lightseagreen;*/
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 5px 20px 5px 8px ;
+}
+
+.heading-left {
+  display: flex; 
+  align-items: center; 
+  gap: 10px; 
+  padding-left: 2px;
+  padding-right: 2px;
+/*  background-color: orange;*/
+}
+
+.heading-left p {
+  margin: 0;
+  font-size: 18px;
+  font-family: "Sora", sans-serif;
+  color: white;
+}
+
+.tenure {
+  margin: 0;
+  font-size: 16px;
+  font-family: "Poppins", sans-serif;
+  color: white;
+
+}
+.experience-icon{
+    width: 30px;
+
+}
+
+.experience-description{
+/*    background-color: lightsteelblue;*/
+    color: #71717a;
+    padding: 5px 20px 5px 10px;
+}
+.experience-description p{
+    font-size: 16px; 
+    font-family: "Sora", sans-serif;
+    text-align: justify;
+    margin: 2px 0;
+
+}
+
+
+
+/* For screens 1024px and below */
+@media (max-width: 1024px) {
+  .experience-heading-box h5 {
+    font-size: 48px; 
+}
+
+  .experience-heading-box p {
+    font-size: 24px; 
+  }
+
+  .experience-box {
+    max-width: 80%; /* Slightly reduce box width */
+  }
+
+  .experience-content-heading {
+    padding: 10px 15px; 
+  }
+
+}
+
+/* For screens 768px and below */
+@media (max-width: 768px) {
+  .experience-heading-box h5 {
+    font-size: 36px; 
+  }
+
+  .experience-heading-box p {
+    font-size: 18px; 
+  }
+
+  .experience-box {
+    width: 95%; /* Slightly reduce box width */
+  }
+
+  
+  .heading-left {
+    gap: 8px; /* Reduce gap */
+  }
+
+  .heading-left p,
+  .tenure {
+    font-size: 14px; /* Adjust text size */
+  }
+
+  .experience-description p {
+    font-size: 14px; /* Smaller text */
+  }
+}
+
+/* For screens 480px and below */
+@media (max-width: 480px) {
+  .experience-heading-box h5 {
+    font-size: 28px; /* Further reduce heading size */
+  }
+
+  .experience-heading-box p {
+    font-size: 16px; /* Adjust subheading size */
+  }
+
+  .experience-box {
+    width: 100%; /* Full width for very small screens */
+  }
+
+  .experience-content-heading {
+    padding: 5px 10px; /* Adjust padding */
+  }
+  .experience-icon{
+    width: 20px;
+  }
+  .experience-description p {
+    font-size: 12px; /* Further reduce text size */
+  }
+}
+
+/* For extra small screens (below 360px) */
+@media (max-width: 360px) {
+  .experience-heading-box h5 {
+    font-size: 24px; /* Smallest heading size */
+  }
+
+  .experience-heading-box p {
+    font-size: 14px; /* Smallest subheading size */
+  }
+
+/*  .experience-content-heading {
+    flex-direction: column;
+    gap: 5px; 
+  }
+*/
+  .heading-left p,
+  .tenure {
+    font-size: 12px; /* Minimum readable size */
+  }
+
+  .experience-description p {
+    font-size: 10px; /* Minimum readable size */
+  }
+}

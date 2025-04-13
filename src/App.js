@@ -17,10 +17,10 @@ import Main from "./Main";
 function App() {
   return (
     <>
-       <BrowserRouter>
+       <BrowserRouter basename="/resume">
          <Routes>
            {<Route path="/" element={<EntryPage/>} />}
-           <Route path="/portfolio" element={<Main/>} />
+           <Route path="/main" element={<Main/>} />
            <Route path="/about" element={<About/>} />
            <Route path="/skill" element={<Skill/>} />
            <Route path="/certificate" element={<Certificate/>} />

@@ -13,7 +13,7 @@ const EntryPage = () => {
     }, 2500);
 
     setTimeout(() => {
-      navigate("/portfolio"); // helps in navigating to the next page automatically
+      navigate("/main"); // helps in navigating to the next page automatically
     }, 6000);
 
   }, [navigate]);

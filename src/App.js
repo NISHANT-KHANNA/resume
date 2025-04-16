@@ -1,5 +1,5 @@
 import React from "react";
-import {BrowserRouter, Routes,Route} from "react-router-dom";
+import {HashRouter, Routes,Route} from "react-router-dom";
 import Home from "./Component/Home/Home";
 import Blob from "./Component/Blob/Blob";
 import About from "./Component/About/About";
@@ -17,7 +17,8 @@ import Main from "./Main";
 function App() {
   return (
     <>
-       <BrowserRouter basename="/resume">
+       {/*<BrowserRouter basename="/resume">*/}
+        <HashRouter>
          <Routes>
            {<Route path="/" element={<EntryPage/>} />}
            <Route path="/main" element={<Main/>} />
@@ -32,7 +33,8 @@ function App() {
            <Route path="/entrypage" element={<EntryPage/>} />
            <Route path="/blob" element={<Blob/>} />
          </Routes>
-       </BrowserRouter>
+       </HashRouter>
+      {/*</BrowserRouter>*/}
     </>
   );
 }

@@ -132,6 +132,10 @@ padding: 0 0 10px 0;
 
 
 @media (max-width: 1024px) {
+  .about-page{
+       min-height:auto;
+       margin-bottom: 20px;
+  }
   .about-heading-box h5 {
     font-size: 48px; 
 }

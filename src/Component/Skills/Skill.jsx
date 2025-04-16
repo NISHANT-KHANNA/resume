@@ -46,7 +46,7 @@ const Skill = ()=>{
             </motion.div>
               
 
-              <Marquee direction="right" gradient="true" gradientColor="black" speed={100} className="skill-marque">
+              <Marquee direction="right" gradient="true" gradientColor="black" gradientWidth="100px" speed={100} className="skill-marque">
               <motion.div className="skill-img-box" initial={{opacity:0 }} whileInView={{opacity :1 }} transition={{duration:1.5, delay:0.5}}>
               
               	<div className="skillbox">
@@ -82,7 +82,7 @@ const Skill = ()=>{
               </motion.div>
               </Marquee>
 
-              <Marquee direction="left" gradient="true" gradientColor="black"  speed={100} className="skill-marque">
+              <Marquee direction="left" gradient="true" gradientColor="black" gradientWidth="100px" speed={100} className="skill-marque">
               <motion.div className="skill-img-box" initial={{opacity:0 }} whileInView={{opacity :1 }} transition={{duration:1.5 ,delay:1}}>
               
               	<div className="skillbox">

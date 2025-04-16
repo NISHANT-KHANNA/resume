@@ -1,6 +1,7 @@
 .contact-page{
    width: 100%;
-   min-height:100vh;
+/*   min-height:100v0h;*/
+   min-height: auto;
    display: flex;
    flex-direction: column;
    padding: 20px 20px;

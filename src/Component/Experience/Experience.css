@@ -1,9 +1,11 @@
 .experience-page{
    width: 100%;
-   min-height:100vh;
+/*   min-height:100vh;*/
+   min-height:auto;
    display: flex;
    flex-direction: column;
-   padding: 20px 20px;
+/*   padding: 20px 20px;*/
+   padding: 20px 20px 50px 20px;
    box-sizing: border-box;
 /*   background-color: black; */
 /*background-color: orange;*/

@@ -131,6 +131,10 @@
 
 /* For screens 1024px and below */
 @media (max-width: 1024px) {
+  .certificate-page{
+    min-height: auto;
+    margin-bottom: 200px;
+  }
   .certificate-heading-box h5 {
     font-size: 48px; 
 }
@@ -145,7 +149,9 @@
 
 }
 @media screen and (max-width: 768px) {
-  
+  .certificate-page{
+    margin-bottom: 50px;
+  }
   .certificate-heading-box h5 {
     font-size: 36px;
   }

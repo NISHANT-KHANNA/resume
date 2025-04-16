@@ -100,6 +100,11 @@
 
 
 @media (max-width: 1024px) {
+  .skill-page{
+    min-height: auto;
+    margin-bottom: 200px;
+  }
+
   .skill-heading-box h5 {
     font-size: 48px; 
 }
@@ -113,9 +118,13 @@
 
 }
 @media screen and (max-width: 768px) {
-    .skill-heading-box h5 {
+  .skill-page{
+    margin-bottom: 50px;
+  }
+
+  .skill-heading-box h5 {
     font-size: 36px; 
-}
+  }
 
   .skill-heading-box p {
     font-size: 18px; 

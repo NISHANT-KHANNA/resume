@@ -34,7 +34,7 @@ const Project= ()=>{
              		<h1>01 </h1>
              		<h3>Ecotracks: Navigating Railways Through Voice</h3>
              		<p>This project uses speech recognition to understand what you need and respond with real-time train info.  Imagine asking for arrival times or station details - simply by speaking up! EcoTracks makes railways accessible and eco-friendly, one conversation at a time.</p>
-             	    <a href="https://www.instagram.com/writoeducation/" target="_blank">
+             	    <a href="https://github.com/NISHANT-KHANNA/ecotracks" target="_blank">
                        <IoLogoGooglePlaystore  className="demo-button"/>
                     </a>
              	</div>
@@ -45,7 +45,7 @@ const Project= ()=>{
              		<h1>02</h1>
              		<h3>Writo Test Series</h3>
              		<p>This project was developed for Writo Educ. Pvt. Ltd.,an educational platform simulating competitive exams like NEET and JEE. Built with React.js, Node.js,Express.js and MongoDB, it offers user-friendly interfaces for students to attempt tests and track performance, while enabling administrators to manage content and generate reports. This platform enhances exam preparation through interactive features and efficient performance tracking.</p>
-             	    <a href="https://www.instagram.com/writoeducation/" target="_blank">
+             	    <a href="https://github.com/NISHANT-KHANNA/Writo" target="_blank">
                        <IoLogoGooglePlaystore  className="demo-button"/>
                     </a>
              	</div>
@@ -62,7 +62,7 @@ const Project= ()=>{
              		<h1>03</h1>
              		<h3>Doodle Dash</h3>
              		<p>Doodle Dash is a multiplayer game combining creativity and quick thinking, where players draw on a shared whiteboard while others guess in real time. Built using React.js for a dynamic UI, Node.js for server-side logic, and Socket.io for real-time communication, it delivers a seamless gaming experience. The project honed my full-stack development skills and expertise in real-time web applications.</p>
-             	    <a href="https://www.instagram.com/writoeducation/" target="_blank">
+             	    <a href="https://github.com/NISHANT-KHANNA/major_frontend" target="_blank">
                        <IoLogoGooglePlaystore  className="demo-button"/>
                     </a>
              	</div>
